@@ -37,13 +37,11 @@
       <div class="navbar-header">
         <a class="navbar-brand" href="#">Grupo 9</a>
       </div>
-      <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav"> 
         <li><a href="#">Docente</a></li>
         <li><a href="login2.html">Comandante</a></li>
-        <li>
-          <div class="dropdown" style="padding-top: 9%;">
-            <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">Grupos
-              <span class="caret"></span></button>
+        <li class="dropdown"> <!-- Se añade la clase 'dropdown' al li -->
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Grupos <span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li style="cursor:not-allowed; pointer-events: none;">Grupo 1</li>
               <hr>
@@ -65,7 +63,6 @@
               <hr>
               <li style="cursor:not-allowed; pointer-events: none;">Grupo 10</li>
             </ul>
-          </div>
         </li>
         <form class="navbar-form navbar-right" role="search">
           <div class="form-group">
@@ -125,8 +122,8 @@
   </footer>
 
   <!-- Scripts de jQuery y Bootstrap -->
-  <script src="js/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+  <script src="js/vendor/jquery-1.11.2.min.js"></script>
+  <script src="js/vendor/bootstrap.min.js"></script>
 </body>
 
 </html>
