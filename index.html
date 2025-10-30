@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <title>EXAMEN</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <!--<link rel="stylesheet" href="Recursos/estilos.css" type="text/css" />-->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- Libreria para iconos -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <!-- 
+    Este span con un glyphicon se movió aquí desde la sección <head>.
+    Los elementos visibles como los iconos deben estar dentro del <body>.
+    Si no es necesario, puedes eliminarlo.
+  -->
+  <span class="glyphicon glyphicon-name"></span>
+
+
+
+  <!-- header (Rectangle) -->
+  <div class="row" style=" padding-left: 1.5%; padding-right: 1.5%; padding-bottom: 1%;">
+    <div class="col-lg-12 col-md-12 col-sm-12 text-center"
+      style="background-color: aqua; border-color: darkgray; border-style: solid; border-radius: 3%;">
+      <img class="img-responsive center-block" src="/Resources/logo_ESPE.png" alt="logo_ESPE"
+        style="width: 90vh; height: 20vh; padding: 1.9%;">
+    </div>
+  </div>
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Grupo 9</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a href="#">Docente</a></li>
+        <li><a href="login2.html">Comandante</a></li>
+        <li>
+          <div class="dropdown" style="padding-top: 9%;">
+            <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">Grupos
+              <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+              <li style="cursor:not-allowed; pointer-events: none;">Grupo 1</li>
+              <hr>
+              <li style="cursor:not-allowed; pointer-events: none;">Grupo 2</li>
+              <hr>
+              <li style="cursor:not-allowed; pointer-events: none;">Grupo 3</li>
+              <hr>
+              <li style="cursor:not-allowed; pointer-events: none;">Grupo 4</li>
+              <hr>
+              <li style="cursor:not-allowed; pointer-events: none;">Grupo 5</li>
+              <hr>
+              <li style="cursor:not-allowed; pointer-events: none;">Grupo 6</li>
+              <hr>
+              <li style="cursor:not-allowed; pointer-events: none;">Grupo 7</li>
+              <hr>
+              <li style="cursor:not-allowed; pointer-events: none;">Grupo 8</li>
+              <hr>
+              <li><a href="/tabla.html">Grupo 9</a></li>
+              <hr>
+              <li style="cursor:not-allowed; pointer-events: none;">Grupo 10</li>
+            </ul>
+          </div>
+        </li>
+        <form class="navbar-form navbar-right" role="search">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Buscar...">
+          </div>
+          <button type="submit" class="btn btn-primary">Buscar</button>
+        </form>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="row">
+    <div class="col-lg-4 text-center" style="border: solid; border-color:darkgray; border-radius: 2%; padding:5%; ">
+      <button type="submit" class="btn btn-basic"> <span class="glyphicon glyphicon-user"></span> Login
+      </button><br><br>
+      <button type="submit" class="btn btn-basic"> <span class="glyphicon glyphicon-hdd"></span> Registro
+      </button><br><br>
+      <button type="submit" class="btn btn-basic"> <span class="glyphicon glyphicon-book"></span> Producto </button>
+      </button><br><br>
+      <button type="submit" class="btn btn-basic" onclick="window.open('login.html', '_blank')"> <span class="glyphicon glyphicon-user"></span> Formulario </button>
+    </div>
+
+    <div class="col-lg-4 text-center"
+      style="border: solid; border-color:darkgray; border-radius: 2%; padding:2%; background-color: green;">
+      <h1 style="color: white;">Aplicaciones de Tecnologias Web</h1>
+      <h4>Integrantes: Diego Arias Vera , Kennet Risco <br><br>
+        Nrc:29925 <br><br>
+        Grupo 9
+
+      </h4>
+    </div>
+
+    <div class="col-lg-4" style="border: solid; border-color:darkgray; border-radius: 2%; padding: 4%;">
+
+      <img src="/Resources/2GU.gif" alt="Animación 2GU" class="img-responsive center-block" style="width: auto;">
+    </div>
+  </main>
+
+  <footer class="row" style="margin-top: 1%;">
+    <div class="col-lg-12 col-md-12 col-sm-12 text-center"
+      style="background-color: rgb(229, 233, 27); border-color: darkgray; border-style: solid; border-radius: 3%; padding:1%;">
+
+      <button type="submit" class="btn btn-primary">
+        <i class="fa fa-facebook"></i> Facebook
+      </button>
+
+      <button type="submit" class="btn btn-info">
+        <i class="fa fa-twitter"></i> Twitter
+      </button>
+
+      <button type="submit" class="btn btn-danger">
+        <i class="fa fa-youtube-play"></i> YouTube
+      </button>
+    </div>
+
+
+  </footer>
+
+  <!-- Scripts de jQuery y Bootstrap -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>
